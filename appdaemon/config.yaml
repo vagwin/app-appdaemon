@@ -13,8 +13,10 @@ homeassistant_api: true
 uart: true
 ports:
   5050/tcp: 5050
+  5051/tcp: 5051
 ports_description:
   5050/tcp: AppDaemon
+  5051/tcp: AppDaemonAPI
 map:
   - addon_config:rw
   - homeassistant_config:rw
